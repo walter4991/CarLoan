@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label contentDisplay="LEFT" layoutX="47.0" layoutY="83.0" mnemonicParsing="false" prefWidth="72.0" text="Codice:" textAlignment="CENTER" wrapText="false" />
+    <Label layoutX="47.0" layoutY="131.0" prefWidth="72.0" text="Nome:" />
+    <Label layoutX="47.0" layoutY="178.0" prefWidth="79.0" text="Indirizzo:" />
+    <Label layoutX="47.0" layoutY="222.0" prefWidth="79.0" text="Città:" />
+    <Label layoutX="47.0" layoutY="267.0" prefWidth="79.0" text="P. IVA:" />
+    <Label layoutX="47.0" layoutY="311.0" prefWidth="86.0" text="E-Mail:" />
+    <Label layoutX="47.0" layoutY="353.0" prefWidth="86.0" text="Telefono:" />
+    <TextField layoutX="212.0" layoutY="80.0" prefWidth="200.0" />
+    <TextField layoutX="212.0" layoutY="128.0" prefWidth="200.0" />
+    <TextField layoutX="212.0" layoutY="175.0" prefWidth="200.0" />
+    <TextField layoutX="212.0" layoutY="219.0" prefWidth="200.0" />
+    <TextField layoutX="212.0" layoutY="267.0" prefWidth="200.0" />
+    <TextField layoutX="212.0" layoutY="308.0" prefWidth="200.0" />
+    <TextField layoutX="212.0" layoutY="350.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

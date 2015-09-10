@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="28.0" layoutY="105.0" prefWidth="106.0" text="Targa:" />
+    <Label layoutX="28.0" layoutY="145.0" prefWidth="106.0" text="Marca:" />
+    <Label layoutX="28.0" layoutY="183.0" prefWidth="106.0" text="Modello:" />
+    <Label layoutX="28.0" layoutY="229.0" prefWidth="106.0" text="Cilindrata:" />
+    <Label layoutX="28.0" layoutY="272.0" prefWidth="106.0" text="Cambio:" />
+    <Label layoutX="28.0" layoutY="317.0" prefWidth="92.0" text="A/C:" />
+    <TextField layoutX="88.0" layoutY="314.0" prefWidth="200.0" />
+    <TextField layoutX="88.0" layoutY="269.0" prefWidth="200.0" />
+    <TextField layoutX="88.0" layoutY="226.0" prefWidth="200.0" />
+    <TextField layoutX="88.0" layoutY="180.0" prefWidth="200.0" />
+    <TextField layoutX="88.0" layoutY="142.0" prefWidth="200.0" />
+    <TextField layoutX="88.0" layoutY="102.0" prefWidth="200.0" />
+    <Label layoutX="329.0" layoutY="105.0" prefWidth="131.0" text="Posti:" />
+    <Label layoutX="327.0" layoutY="145.0" prefWidth="131.00009999999747" text="Data Immatricolazione:" />
+    <Label layoutX="329.0" layoutY="183.0" prefWidth="131.0" text="Scad. Assicurazione:" />
+    <Label layoutX="329.0" layoutY="229.0" prefWidth="131.0" text="Alimentazione:" />
+    <Label layoutX="328.0" layoutY="272.0" prefWidth="131.0" text="Stato:" />
+    <Label layoutX="328.0" layoutY="317.0" prefWidth="131.0" text="Chilometri:" />
+    <TextField layoutX="459.0" layoutY="102.0" prefWidth="200.0" />
+    <TextField layoutX="460.0" layoutY="269.0" prefWidth="200.0" />
+    <TextField layoutX="459.0" layoutY="226.0" prefWidth="200.0" />
+    <TextField layoutX="460.0" layoutY="142.0" prefWidth="200.0" />
+    <TextField layoutX="459.0" layoutY="180.0" prefWidth="200.0" />
+    <TextField layoutX="460.0" layoutY="314.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

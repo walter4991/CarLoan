@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="presentation.controller.LoginController">
+  <children>
+    <AnchorPane prefHeight="500.0" prefWidth="700.0">
+      <children>
+        <Button fx:id="button" layoutX="497.0" layoutY="366.0" onAction="#registrati" prefHeight="34.000099999997474" text="REGISTRATI" />
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="57.0" minHeight="16.0" minWidth="69.0" prefHeight="49.0" prefWidth="376.0" text="BENVENUTO IN CARLOAN!" textAlignment="LEFT">
+          <font>
+            <Font name="System Bold" size="24.0" />
+          </font>
+        </Label>
+        <TextField fx:id="username_box" layoutX="261.0" layoutY="165.0" prefHeight="26.0" prefWidth="236.0" />
+        <Label layoutX="172.0" layoutY="170.0" text="Username" />
+        <Label layoutX="174.0" layoutY="242.0" text="Password" />
+        <PasswordField fx:id="password_box" layoutX="261.0" layoutY="237.0" prefHeight="26.0" prefWidth="236.0" />
+        <Button layoutX="133.0" layoutY="366.0" mnemonicParsing="false" onAction="#accedi" prefHeight="34.0" prefWidth="82.0" text="ACCEDI" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

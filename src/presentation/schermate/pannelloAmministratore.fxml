@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.PannelloAmministratoreController">
+  <children>
+    <AnchorPane layoutX="100.0" layoutY="73.0" prefHeight="434.0" prefWidth="700.0">
+      <children>
+        <Label layoutX="287.0" layoutY="87.0" text="NOTIFICHE">
+          <font>
+            <Font name="System Bold" size="24.0" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+    <MenuBar layoutX="14.0" layoutY="14.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#tornaHome" text="Home" />
+            <MenuItem mnemonicParsing="false" onAction="#chiudiApp" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Cliente">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaUtenteV" text="Visualizza" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiCliente" text="Aggiungi" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaUtenteM" text="Modifica" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaUtenteE" text="Elimina" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Vettura">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaVetturaV" text="Visualizza" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiVettura" text="Aggiungi" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaVetturaM" text="Modifica" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaVetturaE" text="Elimina" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Agenzia">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaAgenziaV" text="Visualizza" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiAgenzia" text="Aggiungi" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaAgenziaM" text="Modifica" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaAgenziaE" text="Elimina" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Contratto">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaContratto" text="Visualizza" />
+            <MenuItem mnemonicParsing="false" onAction="#apriContratto" text="Apri" />
+            <MenuItem mnemonicParsing="false" onAction="#chiudiContratto" text="Chiudi" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Prenotazione">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaPrenotazioneV" text="Visualizza" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiPrenotazione" text="Aggiungi" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaPrenotazioneE" text="Elimina" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Fascia">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaFasciaV" text="Visualizza" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiFascia" text="Aggiungi" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaFasciaM" text="Modifica" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaFasciaE" text="Elimina" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Amministratore">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiAmministratore" text="Aggiungi" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiAmministratore" text="Modifica" />
+            <MenuItem mnemonicParsing="false" onAction="#aggiungiAmministratore" text="Elimina" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <Button layoutX="758.0" layoutY="16.0" mnemonicParsing="false" onAction="#logout" prefHeight="24.0" prefWidth="84.0" text="LOGOUT" />
+  </children>
+</AnchorPane>

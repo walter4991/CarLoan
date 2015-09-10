@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="273.0" layoutY="51.0" text="CARLOAN 1.0">
+      <font>
+        <Font name="System Bold" size="24.0" />
+      </font>
+    </Label>
+    <Label layoutX="113.0" layoutY="125.0" text="Realizzato da:">
+      <font>
+        <Font name="System Bold" size="20.0" fx:id="x2" />
+      </font>
+    </Label>
+    <Label layoutX="150.0" layoutY="170.0" text="Corvino Sergio 620244">
+      <font>
+        <Font size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="150.0" layoutY="232.0" text="Enrico d'Elia" />
+    <Label font="$x1" layoutX="150.0" layoutY="293.0" text="Frisullo Walter" />
+    <Label layoutX="82.0" layoutY="428.0" prefWidth="537.0" text="Informatica e Tecnologie per la Produzione del Software">
+      <font>
+        <Font name="System Bold Italic" size="20.0" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="266.0" layoutY="379.0" text="Corso di Laurea in" />
+  </children>
+</AnchorPane>

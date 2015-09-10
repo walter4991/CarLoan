@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.ClienteController">
+  <children>
+    <Label layoutX="31.0" layoutY="85.0" text="Cognome" />
+    <TextField fx:id="cognome" layoutX="158.0" layoutY="82.0" />
+    <Label layoutX="31.0" layoutY="136.0" text="Nome " />
+    <TextField fx:id="nome" layoutX="158.0" layoutY="131.0" />
+    <Label layoutX="33.0" layoutY="171.0" prefHeight="16.0" prefWidth="43.0" text="Sesso" />
+    <RadioButton fx:id="sessoM" layoutX="187.0" layoutY="170.0" mnemonicParsing="false" onAction="#switchSesso" text="M">
+   
+   <toggleGroup>
+        <ToggleGroup fx:id="radioGroup1" />
+      </toggleGroup>
+    </RadioButton>
+     <RadioButton fx:id="sessoF" layoutX="234.0" layoutY="170.0" mnemonicParsing="false" onAction="#switchSesso" text="F" toggleGroup="$radioGroup1" />
+    <Label layoutX="31.0" layoutY="213.0" prefHeight="16.0" prefWidth="114.0" text="Luogo di nascita" />
+      <TextField fx:id="luogoDiNascita" layoutX="176.0" layoutY="210.0" />
+    <Label layoutX="31.0" layoutY="263.0" text="Data di nascita" />
+    <DatePicker fx:id="dataDiNascita" layoutX="176.0" layoutY="258.0" prefHeight="26.0" prefWidth="171.0" />
+      <Label layoutX="33.0" layoutY="304.0" prefHeight="16.0" prefWidth="102.0" text="Codice Fiscale" />
+      <TextField fx:id="codiceFiscale" layoutX="154.0" layoutY="299.0" prefHeight="26.0" prefWidth="206.0" />
+    <Label layoutX="398.0" layoutY="76.0" text="E-mail" />
+    <TextField fx:id="email" layoutX="511.0" layoutY="74.0" />
+    <Label layoutX="398.0" layoutY="124.0" text="Telefono" />
+    <TextField fx:id="telefono" layoutX="511.0" layoutY="120.0" />
+    <Label layoutX="395.0" layoutY="164.0" text="Username" />
+    <TextField fx:id="username" layoutX="510.0" layoutY="159.0" />
+      <Label fx:id="password_CorrenteLabel" layoutX="396.0" layoutY="206.0" text="Password corr." />
+      <PasswordField fx:id="password_Corrente" layoutX="511.0" layoutY="199.0" />
+    <Label fx:id="passwordLabel" layoutX="395.0" layoutY="243.0" text="Password" />
+    <PasswordField fx:id="password" layoutX="510.0" layoutY="238.0" />
+    <Label fx:id="confermaPassLabel" layoutX="395.0" layoutY="293.0" text="Conferma pass." />
+    <PasswordField fx:id="confermaPass" layoutX="510.0" layoutY="288.0" />
+    
+   
+   
+    <Button fx:id="annulla" layoutX="53.0" layoutY="408.0" mnemonicParsing="false" onAction="#annulla" prefHeight="44.0" prefWidth="121.0" text="ANNULLA" />
+    <Button fx:id="conferma" layoutX="536.0" layoutY="408.0" mnemonicParsing="false" onAction="#registrato" prefHeight="44.0" prefWidth="121.0" text="CONFERMA" />
+      <Button fx:id="elimina" layoutX="271.0" layoutY="393.0" mnemonicParsing="false" onAction="#elimina" prefHeight="74.0" prefWidth="178.0" text="ELIMINA">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+     
+  </children>
+</AnchorPane>

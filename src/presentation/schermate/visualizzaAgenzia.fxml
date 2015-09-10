@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TableView layoutX="14.0" layoutY="45.0" prefHeight="441.0" prefWidth="672.0">
+      <columns>
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="48.0" resizable="false" sortable="false" text="COD." visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="105.0" resizable="false" sortable="false" text="NOME" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="105.0" resizable="false" sortable="false" text="INDIRIZZO" visible="true" />
+        <TableColumn editable="false" prefWidth="105.0" resizable="false" sortable="false" text="CITTA'" visible="true" />
+        <TableColumn editable="false" prefWidth="105.0" resizable="false" sortable="false" text="PART. IVA" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="0.0" prefWidth="96.0" resizable="false" sortable="false" text="E-MAIL" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="105.0" resizable="false" sortable="false" text="TELEFONO" visible="true" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="28.0" layoutY="75.0" text="CAMBIO">
+      <font>
+        <Font size="15.0" fx:id="x1" />
+      </font>
+    </Label>
+    <SplitMenuButton layoutX="28.0" layoutY="108.0" mnemonicParsing="false" prefWidth="151.0" text="Seleziona un tipo...">
+      <font>
+        <Font size="11.0" fx:id="x2" />
+      </font>
+      <items>
+        <MenuItem mnemonicParsing="false" text="Automatico" />
+        <MenuItem mnemonicParsing="false" text="Manuale" />
+        <MenuItem mnemonicParsing="false" text="TUTTI" />
+      </items>
+    </SplitMenuButton>
+    <Label font="$x1" layoutX="28.0" layoutY="155.0" text="ALIMENTAZIONE" />
+    <SplitMenuButton font="$x2" layoutX="28.0" layoutY="187.0" mnemonicParsing="false" prefWidth="151.0" text="Seleziona un tipo...">
+      <items>
+        <MenuItem mnemonicParsing="false" text="Benzina" />
+        <MenuItem mnemonicParsing="false" text="Diesel" />
+        <MenuItem mnemonicParsing="false" text="TUTTI" />
+      </items>
+    </SplitMenuButton>
+    <TableView layoutX="194.0" layoutY="67.0" prefHeight="419.0" prefWidth="492.0">
+      <columns>
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="43.0" resizable="false" sortable="false" text="COD." visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="83.0" resizable="false" sortable="false" text="MODELLO" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="99.0" resizable="false" sortable="false" text="CILINDRATA" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" resizable="false" sortable="false" text="PORTE" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="132.0" resizable="false" sortable="false" text="ALIMENTAZIONE" visible="true" />
+        <TableColumn editable="false" prefWidth="75.0" resizable="false" sortable="false" text="CAMBIO" visible="true" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.CercaPrenotazioneAmmController">
+  <children>
+    <Label layoutX="225.0" layoutY="53.0" text="CERCA PRENOTAZIONE">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+    <Button layoutX="279.0" layoutY="390.0" mnemonicParsing="false" onAction="#visualizza" prefHeight="53.0" prefWidth="142.0" text="CERCA" />
+    <Label layoutX="33.0" layoutY="137.0" prefWidth="137.0" text="Codice Prenotazione:">
+      <font>
+        <Font size="14.0" fx:id="x1" />
+      </font>
+    </Label>
+    <TextField fx:id="prenotazione" layoutX="170.0" layoutY="137.0" prefWidth="200.0" />
+    <Label font="$x1" layoutX="33.0" layoutY="250.0" prefWidth="137.0" text="Codice Fiscale:" />
+    <TextField fx:id="codFis" layoutX="170.0" layoutY="249.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

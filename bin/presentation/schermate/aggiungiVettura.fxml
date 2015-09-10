@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.VetturaController">
+  <children>
+    <Button fx:id="aggiungi" layoutX="257.0" layoutY="400.0" mnemonicParsing="false" onAction="#aggiungi" prefHeight="46.0" prefWidth="171.0" text="AGGIUNGI">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Button>
+    <Label fx:id="targaLabel" layoutX="28.0" layoutY="68.0" prefWidth="106.0" text="Targa:" />
+    <TextField fx:id="targa" layoutX="110.0" layoutY="65.0" prefHeight="26.0" prefWidth="171.0" />
+    <Label fx:id="marcaLabel" layoutX="28.0" layoutY="108.0" prefWidth="106.0" text="Marca:" />
+    <TextField fx:id="marca" layoutX="110.0" layoutY="105.0" prefHeight="26.0" prefWidth="171.0" />
+    <Label layoutX="28.0" layoutY="146.0" prefWidth="106.0" text="Modello:" />
+    <TextField fx:id="modello" layoutX="110.0" layoutY="143.0" prefHeight="26.0" prefWidth="171.0" />
+    <Label layoutX="28.0" layoutY="192.0" prefWidth="106.0" text="Cilindrata:" />
+    <TextField fx:id="cilindrata" layoutX="110.0" layoutY="189.0" prefHeight="26.0" prefWidth="171.0" />
+    <Label layoutX="28.0" layoutY="235.0" prefWidth="106.0" text="Cambio:" />
+    <Label layoutX="28.0" layoutY="280.0" prefWidth="92.0" text="A/C:" />
+    <Label layoutX="28.0" layoutY="318.0" prefHeight="16.0" prefWidth="44.0" text="Posti:" />
+    <Label layoutX="333.0" layoutY="67.0" prefHeight="16.0" prefWidth="155.0" text="Data Immatricolazione:" />
+    <Label fx:id="scadenzaAssicurazoneLabel" layoutX="335.0" layoutY="105.0" prefHeight="16.0" prefWidth="143.0" text="Scad. Assicurazione:" />
+    <Label layoutX="335.0" layoutY="151.0" prefWidth="131.0" text="Alimentazione:" />
+      <ComboBox fx:id="alimentazione" layoutX="513.0" layoutY="146.0" prefHeight="26.0" prefWidth="171.0" />
+    <Label layoutX="334.0" layoutY="194.0" prefWidth="131.0" text="Stato:" />
+      <ComboBox fx:id="stato" layoutX="515.0" layoutY="189.0" prefHeight="26.0" prefWidth="171.0" />
+    <Label layoutX="334.0" layoutY="239.0" prefHeight="16.0" prefWidth="76.0" text="Chilometri:" />
+      <DatePicker fx:id="data_immatricolazione" layoutX="515.0" layoutY="64.0" prefHeight="26.0" prefWidth="171.0" />
+      <DatePicker fx:id="scadenza_assicurazione" layoutX="515.0" layoutY="102.0" prefHeight="26.0" prefWidth="171.0" />
+      <TextField fx:id="chilometri" layoutX="512.0" layoutY="234.0" prefHeight="26.0" prefWidth="171.0" />
+     <RadioButton fx:id="acS" layoutX="150.0" layoutY="279.0" mnemonicParsing="false" text="SI">
+   
+   <toggleGroup>
+        <ToggleGroup fx:id="radioGroup1" />
+      </toggleGroup>
+    </RadioButton>
+     <RadioButton fx:id="acN" layoutX="197.0" layoutY="279.0" mnemonicParsing="false" text="NO" toggleGroup="$radioGroup1" />
+      <Label layoutX="333.0" layoutY="280.0" text="Agenzia" />
+      <ComboBox fx:id="agenzia" layoutX="515.0" layoutY="275.0" prefHeight="26.0" prefWidth="171.0" />
+      <Label layoutX="330.0" layoutY="318.0" text="Fascia" />
+      <ComboBox fx:id="fascia" layoutX="515.0" layoutY="321.0" prefHeight="26.0" prefWidth="171.0" />
+      <ComboBox fx:id="cambio" layoutX="112.0" layoutY="230.0" prefHeight="26.0" prefWidth="171.0" />
+      <Spinner fx:id="posti" layoutX="161.0" layoutY="313.0" max="100" min="1" prefHeight="26.0" prefWidth="69.0" >
+       <min>1</min>
+                <max>70</max>
+                </Spinner>
+  </children>
+</AnchorPane>

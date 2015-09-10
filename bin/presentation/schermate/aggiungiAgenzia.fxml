@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <Label layoutX="152.0" layoutY="82.0" prefWidth="72.0" text="Nome:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    <TextField fx:id="nome" layoutX="272.0" layoutY="84.0" prefHeight="26.0" prefWidth="276.0" />
+    <Label layoutX="152.0" layoutY="129.0" prefWidth="79.0" text="Indirizzo:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    <TextField fx:id="indirizzo" layoutX="272.0" layoutY="131.0" prefHeight="26.0" prefWidth="276.0" />
+    <Label layoutX="152.0" layoutY="173.0" prefWidth="79.0" text="Città:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    <TextField fx:id="citta" layoutX="272.0" layoutY="175.0" prefHeight="26.0" prefWidth="276.0" />
+    <Label layoutX="152.0" layoutY="218.0" prefWidth="79.0" text="P. IVA:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    <TextField fx:id="pIva" layoutX="272.0" layoutY="223.0" prefHeight="26.0" prefWidth="276.0" />
+    <Label layoutX="152.0" layoutY="262.0" prefWidth="86.0" text="E-Mail:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    <TextField fx:id="email" layoutX="272.0" layoutY="264.0" prefHeight="26.0" prefWidth="276.0" />
+    <Label layoutX="152.0" layoutY="304.0" prefWidth="86.0" text="Telefono:">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+    <TextField fx:id="telefono" layoutX="272.0" layoutY="306.0" prefHeight="26.0" prefWidth="276.0" />
+    <Button fx:id="conferma" contentDisplay="CENTER" layoutX="478.0" layoutY="383.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="157.0" text="CONFERMA" textAlignment="LEFT">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="elimina" layoutX="272.0" layoutY="383.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="157.0" text="ELIMINA">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="annulla" layoutX="67.0" layoutY="383.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="157.0" text="ANNULLA">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="codice_agenziaLabel" layoutX="152.0" layoutY="45.0" text="Codice Agenzia: ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="codice_agenzia" layoutX="272.0" layoutY="41.0" prefHeight="26.0" prefWidth="276.0" />
+  </children>
+</AnchorPane>

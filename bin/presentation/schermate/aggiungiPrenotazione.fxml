@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.controller.PrenotazioneController">
+  <children>
+    <Label layoutX="32.0" layoutY="122.0" text="Agenzia di Partenza">
+      <font>
+        <Font size="14.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="33.0" layoutY="215.0" text="Tipologia Noleggio" />
+    <Label font="$x1" layoutX="33.0" layoutY="318.0" text="Fascia Auto" />
+    <Label font="$x1" layoutX="351.0" layoutY="122.0" text="Agenzia di Consegna" />
+    <Label font="$x1" layoutX="351.0" layoutY="215.0" text="Tipologia Chilometraggio" />
+    <Label font="$x1" layoutX="387.0" layoutY="318.0" text="Vettura" />
+    <Button fx:id="prenota" layoutX="280.0" layoutY="398.0" mnemonicParsing="false" onAction="#prenota" prefHeight="38.0" prefWidth="107.0" text="PRENOTA" />
+      <Button fx:id="elimina" layoutX="280.0" layoutY="398.0" mnemonicParsing="false" onAction="#elimina" prefHeight="38.0" prefWidth="107.0" text="ELIMINA" />
+      <ComboBox fx:id="agenziaPartenza" layoutX="154.0" layoutY="120.0" prefWidth="150.0" />
+      <ComboBox fx:id="tipoNol" layoutX="154.0" layoutY="213.0" prefWidth="150.0" />
+      <ComboBox fx:id="fascia" layoutX="154.0" layoutY="315.0" prefWidth="150.0" />
+      <ComboBox fx:id="agenziaConsegna" layoutX="517.0" layoutY="120.0" prefWidth="150.0" />
+      <ComboBox fx:id="tipoChilometri" layoutX="517.0" layoutY="213.0" prefWidth="150.0" />
+      <ComboBox fx:id="vettura" layoutX="524.0" layoutY="316.0" prefWidth="150.0" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="28.0" layoutY="81.0" text="MARCA" textAlignment="LEFT" underline="false">
+      <font>
+        <Font size="20.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="27.0" layoutY="116.0" text="MODELLO" textAlignment="LEFT" underline="false" />
+    <Label font="$x1" layoutX="28.0" layoutY="310.0" text="ALIMENTAZIONE" textAlignment="LEFT" underline="false" />
+    <Label font="$x1" layoutX="27.0" layoutY="157.0" text="CILINDRATA" textAlignment="LEFT" underline="false" />
+    <Label font="$x1" layoutX="28.0" layoutY="199.0" text="CAMBIO" textAlignment="LEFT" underline="false" />
+    <Label font="$x1" layoutX="28.0" layoutY="233.0" text="A/C" textAlignment="LEFT" underline="false" />
+    <Label font="$x1" layoutX="28.0" layoutY="269.0" text="POSTI" textAlignment="LEFT" underline="false" />
+    <Label font="$x1" layoutX="27.0" layoutY="356.0" text="CHILOMETRI" textAlignment="LEFT" underline="false" />
+    <TextField layoutX="210.0" layoutY="313.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="359.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="272.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="236.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="202.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="160.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="119.0" prefWidth="200.0" />
+    <TextField layoutX="210.0" layoutY="84.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

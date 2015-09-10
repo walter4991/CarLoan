@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+      <Label layoutX="24.0" layoutY="89.0" text="USERNAME" />
+      <TextField layoutX="162.0" layoutY="84.0" prefHeight="26.0" prefWidth="154.0" />
+    <Label layoutX="22.0" layoutY="124.0" text="NOME" />
+    <TextField editable="false" layoutX="159.0" layoutY="120.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="20.0" layoutY="168.0" text="COGNOME" />
+    <TextField editable="false" layoutX="159.0" layoutY="164.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="20.0" layoutY="209.0" text="SESSO" />
+      <TextField editable="false" layoutX="216.0" layoutY="204.0" prefHeight="26.0" prefWidth="40.0" />
+    <Label layoutX="18.0" layoutY="249.0" text="LUOGO DI NASCITA" />
+    <TextField editable="false" layoutX="159.0" layoutY="245.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="387.0" layoutY="126.0" text="DATA DI NASCITA" />
+    <TextField editable="false" layoutX="526.0" layoutY="121.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="385.0" layoutY="173.0" text="COD. FISCALE" />
+    <TextField editable="false" layoutX="526.0" layoutY="169.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="383.0" layoutY="211.0" text="TELEFONO" />
+    <TextField editable="false" layoutX="528.0" layoutY="207.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="385.0" layoutY="255.0" text="E-MAIL" />
+    <TextField editable="false" layoutX="528.0" layoutY="251.0" prefHeight="24.0" prefWidth="154.0" />
+    <Button layoutX="220.0" layoutY="349.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="260.0" text="ELIMINA">
+      <font>
+        <Font size="35.0" />
+      </font>
+    </Button>
+      <Label layoutX="393.0" layoutY="89.0" text="PASSWORD" />
+      <PasswordField layoutX="526.0" layoutY="84.0" prefHeight="26.0" prefWidth="154.0" />
+  </children>
+</AnchorPane>

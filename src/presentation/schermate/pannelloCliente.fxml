@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="presentation.controller.PannelloClienteController">
+  <children>
+    <AnchorPane layoutX="3.0" layoutY="38.0" prefHeight="462.0" prefWidth="697.0">
+      <children>
+        <Label alignment="CENTER" layoutX="217.0" layoutY="165.0" prefHeight="38.0" prefWidth="267.0" text="Effettua una prenotazione">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </Label>
+        <Label layoutX="32.0" layoutY="253.0" text="Agenzia di Partenza" />
+        <Label layoutX="366.0" layoutY="253.0" text="Agenzia di Consegna" />
+        <Label layoutX="32.0" layoutY="311.0" text="Tipologia Noleggio" />
+        <Label layoutX="354.0" layoutY="312.0" text="Tipologia Chilometraggio" />
+        <Label layoutX="32.0" layoutY="370.0" text="Fascia Auto" />
+        <Label layoutX="394.0" layoutY="371.0" text="Vettura" />
+        <Button layoutX="306.0" layoutY="410.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="88.0" text="PRENOTA" />
+        <ChoiceBox layoutX="171.0" layoutY="251.0" prefWidth="135.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <ChoiceBox layoutX="171.0" layoutY="309.0" prefWidth="135.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <ChoiceBox layoutX="171.0" layoutY="368.0" prefWidth="135.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <ChoiceBox layoutX="525.0" layoutY="251.0" prefWidth="135.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <ChoiceBox layoutX="525.0" layoutY="309.0" prefWidth="135.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <ChoiceBox layoutX="525.0" layoutY="368.0" prefWidth="135.0">
+          <items>
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Item 1" />
+              <String fx:value="Item 2" />
+              <String fx:value="Item 3" />
+            </FXCollections>
+          </items>
+        </ChoiceBox>
+        <Label alignment="CENTER" contentDisplay="LEFT" layoutX="180.0" layoutY="59.0" prefHeight="106.0" prefWidth="366.0" text="seleziona una voce dal menù &#10;per accedere alle funzioni dell'autonoleggio &#10;oppure fai una prenotazione" textAlignment="CENTER" />
+        <Label alignment="CENTER" layoutX="248.0" layoutY="10.0" prefHeight="58.0" prefWidth="230.0" text="BENVENUTO ..." />
+      </children>
+    </AnchorPane>
+    <Button layoutX="612.0" layoutY="14.0"  onAction="#logout" mnemonicParsing="false" prefHeight="24.0" prefWidth="74.0" text="LOGOUT" />
+    <MenuBar layoutX="14.0" layoutY="14.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#tornaHome" text="Home" />
+            <MenuItem mnemonicParsing="false" onAction="#chiudiApp" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Visualizza">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#profilo" text="Profilo" />
+            <MenuItem mnemonicParsing="false" onAction="#visualizzaPrenotazioni" text="Prenotazioni" />
+            <MenuItem mnemonicParsing="false" onAction="#visualizzaContratti" text="Contratti" />
+            <MenuItem mnemonicParsing="false" onAction="#visualizzaGarage" text="Parco Vetture" />
+            <MenuItem mnemonicParsing="false" onAction="#visualizzaAgenzia" text="Agenzie" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Cerca">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#cercaPrenotazione" text="Prenotazione" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaContratto" text="Contratto" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaVettura" text="Vettura" />
+            <MenuItem mnemonicParsing="false" onAction="#cercaAgenzia" text="Agenzia" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#about" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TableView layoutX="14.0" layoutY="50.0" prefHeight="421.0" prefWidth="672.0">
+      <columns>
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="48.0" resizable="false" sortable="false" text="COD." visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="95.0" resizable="false" sortable="false" text="DATA INIZIO" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" resizable="false" sortable="false" text="DATA FINE" visible="true" />
+        <TableColumn editable="false" prefWidth="75.0" resizable="false" sortable="false" text="VETTURA" visible="true" />
+        <TableColumn editable="false" prefWidth="120.0" resizable="false" sortable="false" text="TIPO NOLEGGIO" visible="true" />
+        <TableColumn editable="false" prefWidth="65.0" resizable="false" sortable="false" text="TIPO KM" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="77.0" resizable="false" sortable="false" text="ACCONTO" visible="true" />
+        <TableColumn editable="false" prefWidth="70.0" resizable="false" sortable="false" text="TOTALE" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="2.0" prefWidth="30.0" resizable="false" sortable="false" text="" visible="true" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>

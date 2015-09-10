@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="173.0" layoutY="46.0" text="TIPO CONTRATTO:" />
+    <RadioButton disable="false" layoutX="310.0" layoutY="47.0" mnemonicParsing="false" selected="true" text="TUTTI" />
+    <RadioButton layoutX="387.0" layoutY="47.0" mnemonicParsing="false" text="Chiusi" />
+    <RadioButton layoutX="460.0" layoutY="47.0" mnemonicParsing="false" text="Aperti" />
+    <TableView layoutX="14.0" layoutY="88.0" prefHeight="412.0" prefWidth="672.0">
+      <columns>
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="37.0" resizable="false" sortable="false" text="COD." visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="80.0" resizable="false" sortable="false" text="D. INIZIO" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="80.0" resizable="false" sortable="false" text="D. FINE" visible="true" />
+        <TableColumn editable="false" prefWidth="75.0" resizable="false" sortable="false" text="VETTURA" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="70.0" resizable="false" sortable="false" text="KM PARTENZA" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="59.0" resizable="false" sortable="false" text="KM ARRIVO" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="53.0" resizable="false" sortable="false" text="CAUZIONE" visible="true" />
+        <TableColumn editable="false" prefWidth="75.0" resizable="false" sortable="false" text="COSTI AGGIUNT." visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="69.0" resizable="false" sortable="false" text="TOT. PARTENZA" visible="true" />
+        <TableColumn editable="false" maxWidth="5000.0" minWidth="10.0" prefWidth="67.0" resizable="false" sortable="false" text="TOT. ARRIVO" visible="true" />
+      </columns>
+    </TableView>
+  </children>
+</AnchorPane>

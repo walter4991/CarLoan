@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="62.0" layoutY="91.0" text="Nome Fascia">
+      <font>
+        <Font size="14.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="62.0" layoutY="142.0" text="Porte" />
+    <Label font="$x1" layoutX="62.0" layoutY="187.0" text="Dimensioni" />
+    <Label font="$x1" layoutX="62.0" layoutY="298.0" text="Età Minima" />
+    <Label font="$x1" layoutX="62.0" layoutY="244.0" text="Tariffa Base" />
+    <Button layoutX="301.0" layoutY="379.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="98.0" text="MODIFICA" />
+    <TextField layoutX="250.0" layoutY="296.0" prefWidth="200.0" />
+    <TextField layoutX="250.0" layoutY="185.0" prefWidth="200.0" />
+    <TextField layoutX="250.0" layoutY="242.0" prefWidth="200.0" />
+    <ChoiceBox layoutX="250.0" layoutY="140.0" prefHeight="22.0" prefWidth="200.0">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Item 1" />
+          <String fx:value="Item 2" />
+          <String fx:value="Item 3" />
+        </FXCollections>
+      </items>
+    </ChoiceBox>
+    <TextField layoutX="250.0" layoutY="89.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>

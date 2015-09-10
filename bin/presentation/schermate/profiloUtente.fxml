@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="16.0" layoutY="75.0" text="NOME" />
+    <TextField editable="false" layoutX="153.0" layoutY="71.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="14.0" layoutY="119.0" text="COGNOME" />
+    <TextField editable="false" layoutX="153.0" layoutY="115.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="14.0" layoutY="160.0" text="SESSO" />
+    <RadioButton layoutX="153.0" layoutY="160.0" mnemonicParsing="false" text="M" />
+    <RadioButton layoutX="204.0" layoutY="160.0" mnemonicParsing="false" text="F" />
+    <Label layoutX="12.0" layoutY="200.0" text="LUOGO DI NASCITA" />
+    <TextField editable="false" layoutX="153.0" layoutY="196.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="14.0" layoutY="250.0" text="DATA DI NASCITA" />
+    <TextField editable="false" layoutX="153.0" layoutY="245.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="12.0" layoutY="297.0" text="COD. FISCALE" />
+    <TextField editable="false" layoutX="153.0" layoutY="293.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="361.0" layoutY="75.0" text="TELEFONO" />
+    <TextField editable="false" layoutX="506.0" layoutY="71.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label layoutX="363.0" layoutY="119.0" text="E-MAIL" />
+    <TextField editable="false" layoutX="506.0" layoutY="115.0" prefHeight="24.0" prefWidth="154.0" />
+    <Label disable="false" layoutX="360.0" layoutY="200.0" text="PASSWOD CORRENTE" visible="true">
+      <font>
+        <Font size="12.0" />
+      </font>
+    </Label>
+    <TextField editable="false" layoutX="506.0" layoutY="192.0" prefHeight="24.0" prefWidth="154.0" visible="true" />
+    <Label disable="false" layoutX="361.0" layoutY="248.0" text="NUOVA PASSWORD" visible="true">
+      <font>
+        <Font size="13.0" />
+      </font>
+    </Label>
+    <TextField editable="false" layoutX="506.0" layoutY="245.0" prefHeight="24.0" prefWidth="154.0" visible="true" />
+    <Label disable="false" layoutX="361.0" layoutY="297.0" text="CONFERMA PASSWORD" visible="true">
+      <font>
+        <Font size="11.5" />
+      </font>
+    </Label>
+    <TextField editable="false" layoutX="506.0" layoutY="293.0" prefHeight="24.0" prefWidth="154.0" visible="true" />
+    <Button layoutX="220.0" layoutY="361.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="260.0" text="MODIFICA">
+      <font>
+        <Font size="35.0" />
+      </font>
+    </Button>
+    <Label disable="true" layoutX="244.0" layoutY="439.0" text="(Oppure premi ESC per annullare)" />
+  </children>
+</AnchorPane>
